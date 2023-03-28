@@ -45,6 +45,17 @@
     td{
         border: 1px solid black;
     }
+
+    #disc{
+        list-style-type: disc;
+    }
+    #sqr{
+        list-style-type: square;
+    }
+    #circle{
+        list-style-type: circle;
+    }
+
     
 
 </style>
@@ -124,13 +135,13 @@
                     </ol></li>
                 </ol>
             </ol>
-            <ul style="margin-left:-20px ;">
+            <ul id="disc" style="margin-left:-20px ;">
                 <li>Item 1</li>
                 <li>Item 2</li>
-                <ul type="." style="margin-left: 0px;">
+                <ul id="circle" style="margin-left: 0px;">
                     <li>Item 2.1</li>
                     <li>Item 2.2</li>
-                    <li><ul type="." style="margin-left: 0px;margin-top: -18px;">
+                    <li><ul id="sqr" type="." style="margin-left: 0px;margin-top: -18px;">
                         <li>Item 2.3.1</li>
                         <li>Item 2.3.2</li>
                         <li>Item 2.3.3</li>
